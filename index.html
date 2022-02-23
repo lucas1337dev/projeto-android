@@ -63,6 +63,23 @@
             margin: 0px 125px 50px;
         }
 
+        .video {
+            background-color: #004b00;
+            margin-bottom: 30px;
+            margin: 0px -15px 30px -15px;
+            padding: 20px;
+            padding-bottom: 50%;
+            position: relative;
+        }
+
+        .video > iframe {
+            position: absolute;
+            top: 5%;
+            left: 5%;
+            width: 90%;
+            height: 90%;
+        }
+
         @font-face {
             font-family: 'Idroid';
             src: url('fonts/idroid.otf') format('opentype');
@@ -132,17 +149,6 @@
             width: 100%;
         }
 
-        .video {
-            display: block;
-            width: 90%;
-            margin-top: 30px;
-            margin-left: auto;
-            margin-right: auto;
-            background-color: #004b00;
-            padding: 30px;
-            box-shadow: 1px 2px 5px 3px rgba(0, 0, 0, 0.473);
-        }
-
         aside {
             padding: 10px 0px 10px 0px;
         }
@@ -200,7 +206,7 @@
             <img src="images/bugdroid.png" alt="Bugdroid" class="image">
         </section>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A principal inspiração para os traços do novo <strong style="color: #004b00;">Bugdroid</strong> veio daqueles bonequinhos que ilustram portas de banheiro para indicar o gênero de cada porta. Conta a lenda que a artista estava criando em sua mesa no escritório do <strong style="color: #004b00;">Google</strong> e olhou para o lado dos banheiros e a identificação foi imediata: simples, limpo, objetivo.</p>
-        <iframe width="500" height="400" src="https://www.youtube.com/embed/l2UDgpLz20M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video"></iframe>
+        <div class="video"><iframe width="500" height="400" src="https://www.youtube.com/embed/l2UDgpLz20M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <section id="end">
             <h3>Quer aprender mais?</h3>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a um doce, em ordem alfabética a partir da versão 1.5 até a 9.0.</p>
